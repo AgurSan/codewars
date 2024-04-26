@@ -9,12 +9,15 @@ Ce référentiel est un espace dédié à la résolution de problèmes Codewars 
   - problem1/
     - problem1.ts
     - problem1.test.ts
+    - jest.config.cjs
   - problem2/
     - problem2.ts
     - problem2.test.ts
+    - jest.config.cjs
   - problem3/
     - problem3.ts
     - problem3.test.ts
+    - jest.config.cjs
 - jest.config.js
 - tsconfig.json
 - package.json
@@ -29,4 +32,4 @@ package.json : Ce fichier décrit les dépendances du projet et contient des scr
 
 1. Installer les dépendances : Assure-toi d'avoir Node.js et npm installés sur ta machine. Exécute npm install pour installer les dépendances du projet.
 
-2. Exécuter les tests : Utilise la commande npm test pour exécuter tous les tests Jest dans le projet.
+2. Exécuter les tests : Utilise la commande npx jest à la racine pour exécuter tous les tests Jest dans le projet. Sinon rends toi dans le répertoire du problème que tu veux tester et réitères le npx jest.
