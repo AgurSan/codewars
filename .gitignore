@@ -1,0 +1,9 @@
+# Ignorer les fichiers générés par TypeScript
+*.js
+*.js.map
+
+# Ignorer les fichiers générés par Jest
+coverage/
+
+# Ignorer les modules Node.js installés localement
+node_modules/
