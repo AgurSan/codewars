@@ -33,3 +33,7 @@ package.json : Ce fichier décrit les dépendances du projet et contient des scr
 1. Installer les dépendances : Assure-toi d'avoir Node.js et npm installés sur ta machine. Exécute npm install pour installer les dépendances du projet.
 
 2. Exécuter les tests : Utilise la commande npx jest à la racine pour exécuter tous les tests Jest dans le projet. Sinon rends toi dans le répertoire du problème que tu veux tester et réitères le npx jest.
+
+## Contribuer
+
+Si tu veux contribuer à ce projet, n'hésite pas à ouvrir une pull request. Il y a un dosier template à copier coller avec son contenu qui te permettras de soumettre une solution en ts plus facilement.
